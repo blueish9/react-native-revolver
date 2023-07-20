@@ -1,0 +1,44 @@
+{
+  "extends": [
+    "@react-native-community",
+    "plugin:react/recommended",
+    "plugin:import/recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "prefer-const": "warn",
+    "no-else-return": ["error", { "allowElseIf": false }],
+    "no-unneeded-ternary": "error",
+    "no-nested-ternary": "error",
+    "no-undef": "error",
+    "no-negated-condition": "error",
+    "import/namespace": "off",
+    "import/no-unresolved": "off",
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "internal"
+        ],
+        "pathGroups": [
+          {
+            "pattern": "react",
+            "group": "builtin",
+            "position": "before"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": [
+          "react"
+        ],
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ]
+  }
+}

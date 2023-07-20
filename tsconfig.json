@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "es6",
+    "module": "commonjs",
+    "types": ["react"],
+    "lib": [
+      "esnext",
+      "es2017"
+    ],
+    "jsx": "react",
+    "declaration": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+  },
+  "exclude": [
+    "node_modules",
+  ]
+}
