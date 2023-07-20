@@ -1,9 +1,21 @@
 {
   "name": "react-native-revolver",
   "version": "0.0.1",
-  "main": "lib/commonjs/index.js",
-  "types": "lib/typescript/index.d.ts",
+  "author": "Quan Vo",
   "license": "MIT",
+  "description": "A pure JavaScript component supporting revolving animation",
+  "homepage": "https://github.com/blueish9/react-native-revolver",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blueish9/react-native-revolver.git"
+  },
+  "keywords": [
+    "react-native",
+    "revolver",
+    "animation",
+    "rotation",
+    "sliding"
+  ],
   "scripts": {
     "build": "bob build"
   },
@@ -24,6 +36,8 @@
     "react": "*",
     "react-native": "*"
   },
+  "main": "lib/commonjs/index.js",
+  "types": "lib/typescript/index.d.ts",
   "files": [
     "lib"
   ],
