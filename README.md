@@ -2,7 +2,7 @@
 
 A pure JavaScript component supporting revolving animation
 
-https://user-images.githubusercontent.com/31811643/254834371-d6d7a603-b9c0-4434-bb79-c3a9d421bb78.mov
+https://github.com/blueish9/react-native-revolver/assets/31811643/9010ee72-3663-4700-a579-b4e12603f9cb
 
 ## Installation
 
